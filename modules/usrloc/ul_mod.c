@@ -208,7 +208,7 @@ static param_export_t params[] = {
 	{"hash_size",           INT_PARAM, &ul_hash_size    },
 	{"nat_bflag",           INT_PARAM, &nat_bflag       },
 	{"handle_lost_tcp",     INT_PARAM, &handle_lost_tcp },
-	{"tcp_close_expired",   INT_PARAM, &close_expired_tcp },
+	{"close_expired_tcp",   INT_PARAM, &close_expired_tcp },
 	{"preload",             PARAM_STRING|USE_FUNC_PARAM, (void*)ul_preload_param},
 	{"db_update_as_insert", INT_PARAM, &ul_db_update_as_insert},
 	{"timer_procs",         INT_PARAM, &ul_timer_procs},
